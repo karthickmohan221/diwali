@@ -1,0 +1,22 @@
+{
+  "name": "diwali-gift",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "nuxt": "^4.5.2",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.14"
+  }
+}
