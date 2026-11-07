@@ -59,6 +59,6 @@ Open the local development URL (typically `http://localhost:3000`).
 
 ## 🌐 GitHub Pages Deployment
 
-Pushing to the `main` branch runs the GitHub Actions workflow to generate and deploy the static site. The workflow configures GitHub Pages and the `/diwali/` base path for personalized greeting links.
+Enable GitHub Pages in **Settings → Pages → Build and deployment → Source: GitHub Actions**. After that, pushing to the `main` branch runs the workflow to generate and deploy the static site with the `/diwali/` base path for personalized greeting links.
 
 After the workflow completes, the site will be available at `https://karthickmohan221.github.io/diwali/`.
